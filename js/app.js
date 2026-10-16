@@ -1,5 +1,5 @@
 async function loadBooks() {
-  const response = await fetch("/data/books.json");
+  const response = await fetch("/api/getbooks");
   const books = await response.json();
 
   const list = document.getElementById("book-list");
