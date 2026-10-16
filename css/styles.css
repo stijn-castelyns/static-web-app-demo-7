@@ -1,0 +1,59 @@
+:root {
+  --ink: #1f2933;
+  --paper: #fdfaf4;
+  --accent: #0078d4;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: var(--ink);
+  background: var(--paper);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: var(--accent);
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+nav a {
+  margin-left: 1rem;
+  color: white;
+}
+
+main {
+  max-width: 40rem;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.books {
+  list-style: none;
+  padding: 0;
+}
+
+.books li {
+  padding: 1rem;
+  margin-bottom: 0.75rem;
+  background: white;
+  border-left: 4px solid var(--accent);
+}
+
+.books .author {
+  color: #616e7c;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  color: #616e7c;
+}
